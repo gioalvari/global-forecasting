@@ -56,9 +56,7 @@ future_dynamic = pd.DataFrame({
 
 # Make predictions
 predictions = forecaster.predict(
-    df,
-    horizon=30,
-    future_dynamic_features=future_dynamic
+    X_df=df,
 )
 ```
 
